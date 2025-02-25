@@ -19,8 +19,8 @@ Usage:
    but "_info.txt" will be appended to each.
 
 Example:
-VirtualDub.subset.AddRange(446,444);
-VirtualDub.subset.AddRange(1397,194);
+ VirtualDub.subset.AddRange(446,444);
+ VirtualDub.subset.AddRange(1397,194);
 
 Will end up looking like this:
 00:00:18.601 - 00:00:37.078 (Frames 446 - 889)     Length: 00:00:18.518 (444 frames)
