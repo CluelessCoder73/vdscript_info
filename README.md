@@ -17,14 +17,3 @@ Usage:
 3. Enter the correct frame rate when asked.
 4. A text file will be created for each vdscript, with the same name, 
    but "_info.txt" will be appended to each.
-
-Example:
-VirtualDub.subset.AddRange(446,444);
-VirtualDub.subset.AddRange(1397,194);
-
-Will end up looking like this:
-00:00:18.601 - 00:00:37.078 (Frames 446 - 889)     Length: 00:00:18.518 (444 frames)
-00:00:58.266 - 00:01:06.316 (Frames 1397 - 1590)   Length: 00:00:08.091 (194 frames)
---------------------------------------------------------------------------------
-Total Length: 00:00:26.609 (638 frames)
-fps = 23.976
