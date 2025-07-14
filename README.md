@@ -5,7 +5,6 @@ This script converts VirtualDub or VirtualDub2 .vdscript files into a simple tex
 NOW WORKS IN BATCH MODE!!!
 This script was tested and works with:
 - Python 3.13.2
-- VirtualDub 1.10.4 .vdscript files
 - VirtualDub2 (build 44282) .vdscript files
 
 Usage:
