@@ -13,7 +13,7 @@ import sys # Import sys module
 # useful if you forget whether you input the correct frame rate or not.
 # NOW WORKS IN BATCH MODE!!!
 # This script was tested and works with:
-# - Python 3.13.2
+# - Python 3.13.7
 # - VirtualDub2 (build 44282) .vdscript files
 #
 # Usage:
@@ -30,7 +30,7 @@ import sys # Import sys module
 # VirtualDub.subset.AddRange(446,444);
 # VirtualDub.subset.AddRange(1397,194);
 #
-# Will end up looking like this:
+# Will be translated to this format in the _info.txt file:
 # 00:00:18.601 - 00:00:37.078 (Frames 446 - 889)     Length: 00:00:18.518 (444 frames)
 # 00:00:58.266 - 00:01:06.316 (Frames 1397 - 1590)   Length: 00:00:08.091 (194 frames)
 # --------------------------------------------------------------------------------
