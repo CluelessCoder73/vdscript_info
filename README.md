@@ -4,7 +4,7 @@ Description:
 This script converts VirtualDub or VirtualDub2 .vdscript files into a simple text file containing all the timecodes for the wanted parts, followed by the frame numbers (start - end), followed by the length in time, then frames. On the 3rd last line, we have "Total Length" in time, then frames, & on the 2nd last line, we have fps. This can be useful if you forget whether you input the correct frame rate or not.
 NOW WORKS IN BATCH MODE!!!
 This script was tested and works with:
-- Python 3.13.2
+- Python 3.13.7
 - VirtualDub2 (build 44282) .vdscript files
 
 Usage:
